@@ -111,6 +111,9 @@
 </script>
 
 <style>
+    html{
+        background-color: #e0edff;
+    }
     body {
         font-size: .875rem;
     }
