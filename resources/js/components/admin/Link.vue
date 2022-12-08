@@ -1,7 +1,7 @@
 <template>
     <div>
     <form class="container" @submit.prevent="handleSubmit">
-        <h2>Add an Link Snippet</h2>
+        <h2>Add a Link</h2>
         <div class="form-group">
             <label for="title">Title:</label>
             <input v-model="title" type="text" class="form-control" id="title" name="title">
