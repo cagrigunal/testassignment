@@ -1,5 +1,5 @@
 <template>
-
+<div>
     <form class="container" @submit.prevent="saveFormData">
         <h2>Add a PDF</h2>
         <div class="form-group">
@@ -62,6 +62,7 @@
             </div>
         </div>
     </div>
+</div>
 </template>
 
 <script>

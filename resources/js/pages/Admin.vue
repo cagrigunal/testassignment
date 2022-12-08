@@ -1,5 +1,4 @@
 <template>
-
     <div class="container-fluid">
         <div class="row">
             <nav class="col-md-2 d-none d-md-block bg-light sidebar">
@@ -116,6 +115,7 @@
         font-size: .875rem;
     }
 
+
     /*
      * Sidebar
      */
@@ -171,21 +171,17 @@
      */
 
 
-
-    .navbar .form-control {
-        padding: .75rem 1rem;
-        border-width: 0;
-        border-radius: 0;
-    }
-
-
     li{
         list-style:none;
     }
     main{
         padding-left: 300px;
+        padding-top: 100px;
     }
-
+    tr,td{
+        padding:10px;
+        border: 1px dotted black;
+    }
 
     svg{
         display: inline-block;

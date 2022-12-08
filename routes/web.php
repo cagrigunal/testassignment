@@ -14,16 +14,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('visitor');
 });
 
 
 Route::get('/admin', function () {
     return view('admin');
 });
-Route::get('/visitor', function () {
-    return view('visitor');
-});
+
 
 Route::resource('pdf', \App\Http\Controllers\PDFController::class);
 Route::resource('htmlSnippet', \App\Http\Controllers\HTMLSnippetController::class);

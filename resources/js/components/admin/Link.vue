@@ -1,4 +1,5 @@
 <template>
+    <div>
     <form class="container" @submit.prevent="handleSubmit">
         <h2>Add an Link Snippet</h2>
         <div class="form-group">
@@ -76,6 +77,7 @@
                 </div>
             </div>
         </div>
+    </div>
     </div>
 </template>
 
