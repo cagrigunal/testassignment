@@ -21,3 +21,10 @@ Route::get('/', function () {
 Route::get('/admin', function () {
     return view('admin');
 });
+Route::get('/visitor', function () {
+    return view('visitor');
+});
+
+Route::resource('pdf', \App\Http\Controllers\PDFController::class);
+Route::resource('htmlSnippet', \App\Http\Controllers\HTMLSnippetController::class);
+Route::resource('link', \App\Http\Controllers\LinkController::class);
