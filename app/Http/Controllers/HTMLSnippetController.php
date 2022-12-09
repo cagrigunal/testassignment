@@ -8,6 +8,16 @@ use App\Models\HTMLSnippet;
 
 class HTMLSnippetController extends Controller
 {
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function index()
+    {
+        return HTMLSnippet::all();
+    }
+
 
 
     /**

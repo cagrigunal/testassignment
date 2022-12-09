@@ -9,6 +9,16 @@ use Illuminate\Support\Facades\Storage;
 
 class PDFController extends Controller
 {
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function index()
+    {
+       return PDF::all();
+    }
+
 
 
     /**
@@ -30,7 +40,6 @@ class PDFController extends Controller
 
 
     }
-
 
 
 
