@@ -72,9 +72,6 @@
                 // add the form data to the FormData object
                 formData.append('title', this.title);
                 formData.append('file', this.file);
-                for(let key in formData) {
-                    console.log(key);
-                }
 
                 axios.post('/pdf', formData)
                     .then(response => {

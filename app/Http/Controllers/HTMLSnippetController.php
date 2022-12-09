@@ -8,25 +8,7 @@ use App\Models\HTMLSnippet;
 
 class HTMLSnippetController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index()
-    {
-        return HTMLSnippet::all();
-    }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-
-    }
 
     /**
      * Store a newly created resource in storage.
@@ -44,27 +26,7 @@ class HTMLSnippetController extends Controller
         return $html->save();
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  \App\Models\HTMLSnippet  $hTMLSnippet
-     * @return \Illuminate\Http\Response
-     */
-    public function show(HTMLSnippet $hTMLSnippet)
-    {
-        //
-    }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\Models\HTMLSnippet  $hTMLSnippet
-     * @return \Illuminate\Http\Response
-     */
-    public function edit(HTMLSnippet $hTMLSnippet)
-    {
-        //
-    }
 
     /**
      * Update the specified resource in storage.
